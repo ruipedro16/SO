@@ -40,10 +40,7 @@ int main() {
             for (size_t j = 0; j < COLUMNS; j++) {
                 if (matrix[i][j] == num) m++;
             }
-            if (m > 0)
-                _exit(m);
-            else
-                _exit(0);
+            _exit(m);
         }
     }
 
